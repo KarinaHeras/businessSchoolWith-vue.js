@@ -1,0 +1,64 @@
+{
+    "students": [
+        {
+            "id": 1001,
+            "name":"Ana Campos",
+            "courses": "Finance Courses",
+            "description": "Lorem Ipsum is simply dummy text  <em>amazing</em> of the printing and typesetting industry.",
+            "age": 1995,
+             "image":"static/images/anaCampos.jpg",
+             "availableFaults": 1,
+             "rating": 3
+        },
+        {
+            "id": 1002,
+            "name":"Antonio Solis",
+            "courses": "Accounting Courses",
+            "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "age": 1990,
+             "image":"static/images/antonioSolis.jpg",
+             "availableFaults": 15,
+             "rating": 5
+        },
+        {
+            "id": 1003,
+            "name":"Emilia Fernandez",
+            "courses": "Finance Courses",
+            "description": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "age": 1986,
+             "image":"static/images/emiliaFernandez.jpg",
+             "availableFaults": 8,
+             "rating": 3
+        },
+        {
+            "id": 1004,
+            "name":"Francisco Hoyos",
+            "courses": "Human Resources Courses",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "age": 1988,
+             "image":"static/images/franciscoHoyos.jpg",
+             "availableFaults": 3,
+             "rating": 2
+        },
+        {
+            "id": 1005,
+            "name":"Jose Andres Castro",
+            "courses": "Accounting Courses",
+            "description":"It was popularised and more recently with desktop publishing versions of Lorem Ipsum.",
+            "age": 1984,
+             "image":"static/images/joseAndresCastro.jpg",
+             "availableFaults": 2,
+             "rating": 3
+        },
+        {
+            "id": 1006,
+            "name":"Belen Castellanos",
+            "courses": "Marketing Courses",
+            "description":"Contrary to popular belief, Lorem Ipsum ",
+            "age": 1987,
+             "image":"static/images/belenCastellanos.jpg",
+             "availableFaults": 4,
+             "rating": 5
+        }
+    ]
+}
