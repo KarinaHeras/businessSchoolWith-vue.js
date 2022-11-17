@@ -95,7 +95,7 @@
     components: { MyHeader },
     methods: {
       submitForm() {
-        alert('Report Sent');
+        alert('The absence report was sent to the student');
       }
     }
   }</script>
