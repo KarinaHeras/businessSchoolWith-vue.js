@@ -41,7 +41,7 @@
             <div class="rating">
               <span v-bind:class="{'rating-active' :checkRating(n, student)}"
                     v-for="n in 5">
-              
+
               </span>
             </div>
           </div><!-- end of col-md-6-->
@@ -51,7 +51,6 @@
     </main>
   </div>
 </template>
-
 <script>
   import MyHeader from './Header.vue';
   export default {
