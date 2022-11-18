@@ -24,7 +24,7 @@
             "id": 1003,
             "name":"Emilia Fernandez",
             "courses": "Finance Courses",
-            "description": " It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "description": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
             "age": 1986,
              "image":"static/images/emiliaFernandez.jpg",
              "availableFaults": 8,
@@ -34,7 +34,7 @@
             "id": 1004,
             "name":"Francisco Hoyos",
             "courses": "Human Resources Courses",
-            "description":"",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "age": 1988,
              "image":"static/images/franciscoHoyos.jpg",
              "availableFaults": 3,
@@ -46,7 +46,7 @@
             "courses": "Accounting Courses",
             "description":"It was popularised and more recently with desktop publishing versions of Lorem Ipsum.",
             "age": 1984,
-             "image":"static/images/joseAndresCastro",
+             "image":"static/images/joseAndresCastro.jpg",
              "availableFaults": 2,
              "rating": 3
         },
@@ -56,7 +56,7 @@
             "courses": "Marketing Courses",
             "description":"Contrary to popular belief, Lorem Ipsum ",
             "age": 1987,
-             "image":"static/images/belenCastellanos",
+             "image":"static/images/belenCastellanos.jpg",
              "availableFaults": 4,
              "rating": 5
         }

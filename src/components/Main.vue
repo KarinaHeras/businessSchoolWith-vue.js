@@ -6,7 +6,7 @@
         <div class="row">
           <div class="col-md-5 col-md-offset-0">
             <figure>
-              <img class="studentImg" v-bind:src="student.image"  width="200">
+              <img class="studentImg" v-bind:src="student.image"  width="250" style=" border-radius: 10px">
             </figure>
           </div>
           <div class="col-md-6 col-md-offset-0 description">
@@ -14,11 +14,12 @@
               <h3  v-html="student.name"></h3>
             <p v-html="student.description"></p>
             <p class="age">
-              {{student.age | formatAge}}
+              {{student.age | formatAge}} años
             </p>
             <button class=" btn btn-primary btn-lg"
                     v-on:click="addToInfo(student)"
-                    v-if="canaddToInfo(student)">
+                    v-if="canaddToInfo(student)"
+                      style="background-color: #94D5CA;">
               Add Fouls
             </button>
             <button disabled="disabled" class=" btn btn-primary btn-lg"
@@ -40,17 +41,16 @@
             <div class="rating">
               <span v-bind:class="{'rating-active' :checkRating(n, student)}"
                     v-for="n in 5">
-              
+
               </span>
             </div>
           </div><!-- end of col-md-6-->
         </div><!-- end of row-->
-        <hr />
+        <hr  style="border-top: 10px solid #eee;" />
       </div><!-- end of v-for-->
     </main>
   </div>
 </template>
-
 <script>
   import MyHeader from './Header.vue';
   export default {
@@ -103,10 +103,10 @@
       }
     },
     filters: {
-      formatAge: function () {
+      formatAge: function (age) {
                 const today = new Date();
                 const day = today.getFullYear();
-                let actualAge = day - 1985;/*this.student.year*/
+                let actualAge = day - age;/*this.student.year*/
                 return actualAge;
             }
     },
